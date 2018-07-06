@@ -79,6 +79,10 @@
   width: 100%;
 }
 
+#about p {
+  text-indent: 2em;
+}
+
 @media (max-width: 500px) {
   .section-developers,
   .section-podcast {
