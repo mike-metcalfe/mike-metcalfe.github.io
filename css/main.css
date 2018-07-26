@@ -8,8 +8,13 @@
   overflow: hidden;
 }
 
+.desktop-header-links {
+  font-weight: bolder;
+  font-size: 20px; !important
+}
+
 .main-header {
-  background: url(../img/IngersollHero2.JPG);
+  background: url(../img/Carrousel_Passerelle-Shawinigan_2.jpg);
   background-size: cover;
   background-position: center;
   min-height: 600px;
@@ -17,57 +22,7 @@
 }
 /* Moves Text Into The Center */
 .main-header .showcase {
-  padding-top: 100px;
-}
-
-.main-header-inner {
-  background: url(../img/hero-streetlight.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 350px;
-  color: #fff;
-}
-
-.main-header-inner .showcase {
-  padding-top: 50px;
-}
-
-/* Styled to reflect the page you are on - home page? Home button styled*/
-.active-link {
-  color: #d847f1;
-  font-weight: bold;
-}
-
-.section-developers {
-  position: relative;
-  background: url(../img/code.jpg);
-  background-size: cover;
-  background-position: center;
-  border-top: #333 solid 5px;
-  border-bottom: #333 solid 5px;
-  min-height: 160px;
-}
-
-.section-podcast {
-  position: relative;
-  background: url(../img/circuit.jpg);
-  background-size: cover;
-  background-position: center;
-  border-top: #333 solid 5px;
-  border-bottom: #333 solid 5px;
-  min-height: 160px;
-}
-
-.section-podcast a {
-  margin-top: 30px;
-}
-
-.section-podcast .primary-overlay {
-  background: rgba(112, 81, 176, 0.9);
-}
-
-.carousel-item p {
-  font-size: 20px !important;
+  padding-top: 55px;
 }
 
 .tabs .indicator {
@@ -83,9 +38,8 @@
   text-indent: 2em;
 }
 
-@media (max-width: 500px) {
-  .section-developers,
-  .section-podcast {
-    min-height: 240px;
-  }
+h5 {
+  text-decoration: underline; !important
 }
+
+
